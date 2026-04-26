@@ -1,22 +1,22 @@
-# Available .MY One-Word Domains (7,629)
+# Available .MY One-Word Domains (9,878)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
-  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-7%2C630%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-7%2C629%20domains-6f42c1">
+  <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-9%2C878%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
 
-Daily-updated dataset of available and resale .my one-word domains from Unique Domains.
+Daily-updated public extract of available and resale .my one-word domains from Unique Domains.
 
-> **Note:** this repository currently mirrors the full live catalog for this exact search.
-> Unique Domains counts can still change as the search refreshes.
+> **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
+> The full live catalog for this exact search currently contains **9,878 domains** on the canonical page below.
 
-**Public extract:** 7,630 rows · **Live catalog:** 7,629 domains
+**Public extract:** 1,000 rows · **Live catalog:** 9,878 domains
 
-**Last updated:** 2026-04-13  
+**Last updated:** 2026-04-26  
 **Canonical page:** `https://unique.domains/domains/tld/my`  
 **Best for:** founders, investors, studios
 
@@ -43,8 +43,8 @@ This repository is the public extract for Unique Domains' .MY one-word domain ca
 
 ### Files
 
-- `my.csv` — public CSV extract (7,630 rows)
-- `my.json` — public JSON extract (7,630 rows)
+- `my.csv` — public CSV extract (1,000 rows)
+- `my.json` — public JSON extract (1,000 rows)
 - `DATA_DICTIONARY.md` — field definitions for the exported files
 - `METHODOLOGY.md` — scope, refresh policy, and caveats
 - `CHANGELOG.md` — latest snapshot metadata
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                    |
-| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ---------------------------- |
-| profound.my   | available | $38.98    | —             | 83             | 26     | 8      | namecheap                    |
-| ten.my        | resell    | $5,647.65 | $49.99        | 88             | 31     | 3      | NAMECHEAP                    |
-| even.my       | premium   | $492.79   | $704          | 98             | 64     | 4      | namecheap                    |
-| outlaw.my     | available | $38.98    | —             | 62             | 25     | 6      | namecheap                    |
-| identity.my   | resell    | —         | —             | 80             | 65     | 8      | Porkbun LLC                  |
-| real.my       | premium   | $486.86   | $695.51       | 78             | 49     | 4      | namecheap                    |
-| remedial.my   | available | $38.98    | —             | 86             | 24     | 8      | namecheap                    |
-| game.my       | resell    | —         | —             | 120            | 50     | 4      | Porkbun LLC                  |
-| genius.my     | premium   | $491.47   | $702.09       | 98             | 45     | 6      | namecheap                    |
-| accessible.my | available | $38.98    | —             | 78             | 22     | 10     | namecheap                    |
-| poker.my      | resell    | —         | —             | 100            | 44     | 5      | Safenames (Malaysia) Sdn Bhd |
-| creator.my    | premium   | $492.79   | $704          | 70             | 45     | 7      | namecheap                    |
-| crafty.my     | available | $38.98    | —             | 68             | 22     | 6      | namecheap                    |
-| mark.my       | resell    | —         | —             | 66             | 42     | 4      | GB Network Solutions Sdn Bhd |
-| forge.my      | premium   | $1,971.19 | $2,815.98     | 62             | 44     | 5      | namecheap                    |
-| dong.my       | available | $38.98    | —             | 60             | 22     | 4      | namecheap                    |
-| card.my       | resell    | —         | —             | 66             | 42     | 4      | Porkbun LLC                  |
-| wizard.my     | premium   | $68.81    | $98.29        | 118            | 43     | 6      | namecheap                    |
-| enlighten.my  | available | $38.98    | —             | 81             | 20     | 9      | namecheap                    |
-| vegan.my      | resell    | —         | —             | 96             | 41     | 5      | Spaceship, Inc.              |
+| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                   |
+| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------------------- |
+| donuts.my        | available | $19.99    | —             | 54             | 62     | 6      | name.com                    |
+| questions.my     | resell    | —         | —             | 78             | 17     | 9      | NAMECHEAP                   |
+| makers.my        | premium   | $485.56   | —             | 62             | 67     | 6      | name.com                    |
+| keepthechange.my | available | $19.99    | —             | 46             | 59     | 15     | name.com                    |
+| reflections.my   | resell    | —         | —             | 53             | 16     | 11     | Porkbun LLC                 |
+| regions.my       | premium   | $485.56   | —             | 64             | 59     | 7      | name.com                    |
+| echoes.my        | available | $3.49     | $29.99        | 56             | 24     | 6      | namesilo                    |
+| relationships.my | resell    | —         | —             | 48             | 12     | 13     | NAMECHEAP                   |
+| WiFi.my          | premium   | $1,087.93 | $1,554.18     | 83             | 37     | 5      | namecheap                   |
+| rekt.my          | available | $19.99    | —             | 40             | 24     | 4      | name.com                    |
+| sits.my          | resell    | —         | —             | 54             | 10     | 4      | Shinjiru Technology Sdn Bhd |
+| trends.my        | premium   | $485.56   | —             | 60             | 32     | 6      | name.com                    |
+| Allie.my         | available | $38.98    | —             | 72             | 21     | 5      | namecheap                   |
+| patientcare.my   | resell    | —         | —             | 79             | 8      | 11     | Exabytes Network Sdn Bhd    |
+| quotes.my        | premium   | $67.98    | —             | 58             | 29     | 6      | name.com                    |
+| WhiteCloud.my    | available | $38.98    | —             | 67             | 20     | 11     | namecheap                   |
+| brands.my        | premium   | $67.98    | —             | 62             | 28     | 6      | name.com                    |
+| rivals.my        | available | $3.49     | $29.99        | 48             | 20     | 6      | namesilo                    |
+| forms.my         | premium   | $97.11    | —             | 54             | 28     | 5      | name.com                    |
+| whitewater.my    | available | $19.99    | —             | 82             | 17     | 11     | name.com                    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                                   |
 | ----------------------- | ------------------------------------------------ |
-| 7,630-row public sample | 7,629 live domains                               |
+| 1,000-row public sample | 9,878 live domains                               |
 | Static CSV / JSON       | live search and daily refresh                    |
 | Basic exported fields   | deeper price, demand, risk, and workflow context |
 | No persistence          | Radar, saved search, and alerts                  |
@@ -143,7 +143,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MY One-Word Domains*. Version 2026-04-13. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MY One-Word Domains*. Version 2026-04-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
