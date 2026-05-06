@@ -1,10 +1,10 @@
-# Available .MY One-Word Domains (10,326)
+# Available .MY One-Word Domains (10,330)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-10%2C326%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-10%2C330%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .my one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **10,326 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **10,330 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 10,326 domains
+**Public extract:** 1,000 rows · **Live catalog:** 10,330 domains · **Median ask:** $98.21 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-01  
+**Last updated:** 2026-05-06  
 **Canonical page:** `https://unique.domains/domains/tld/my`  
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                   |
-| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | --------------------------- |
-| keepthechange.my | available | $19.99    | —             | 46             | 59     | 15     | name.com                    |
-| Tshirts.my       | resell    | —         | —             | 70             | 20     | 8      | Porkbun LLC                 |
-| makers.my        | premium   | $485.56   | —             | 62             | 67     | 6      | name.com                    |
-| echoes.my        | available | $3.49     | $29.99        | 56             | 24     | 6      | namesilo                    |
-| questions.my     | resell    | —         | —             | 78             | 17     | 9      | NAMECHEAP                   |
-| WiFi.my          | premium   | $1,087.93 | $1,554.18     | 83             | 37     | 5      | namecheap                   |
-| Allie.my         | available | $38.98    | —             | 72             | 21     | 5      | namecheap                   |
-| reflections.my   | resell    | —         | —             | 53             | 16     | 11     | Porkbun LLC                 |
-| trends.my        | premium   | $485.56   | —             | 60             | 32     | 6      | name.com                    |
-| rivals.my        | available | $3.49     | $29.99        | 48             | 20     | 6      | namesilo                    |
-| sits.my          | resell    | —         | —             | 54             | 10     | 4      | Shinjiru Technology Sdn Bhd |
-| quotes.my        | premium   | $67.98    | —             | 58             | 29     | 6      | name.com                    |
-| whitewater.my    | available | $19.99    | —             | 82             | 17     | 11     | name.com                    |
-| patientcare.my   | resell    | —         | —             | 79             | 8      | 11     | Exabytes Network Sdn Bhd    |
-| brands.my        | premium   | $67.98    | —             | 62             | 28     | 6      | name.com                    |
-| jetlag.my        | available | $19.99    | —             | 72             | 17     | 7      | name.com                    |
-| forms.my         | premium   | $97.11    | —             | 54             | 28     | 5      | name.com                    |
-| happier.my       | available | $19.99    | —             | 62             | 16     | 7      | name.com                    |
-| KFC.my           | premium   | $543.76   | $776.80       | 74             | 27     | 3      | namecheap                   |
-| smiths.my        | available | $3.49     | $29.99        | 50             | 16     | 6      | namesilo                    |
+| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar   |
+| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------- |
+| dogsit.my        | available | $19.99    | —             | 96             | 2      | 6      | name.com    |
+| edamame.my       | available | $3.49     | $29.99        | 80             | 9      | 7      | namesilo    |
+| toneup.my        | available | $19.99    | —             | 80             | 5      | 7      | name.com    |
+| pierogi.my       | available | $19.99    | —             | 82             | 7      | 7      | name.com    |
+| ohmygosh.my      | available | $19.99    | —             | 82             | 6      | 8      | name.com    |
+| surebet.my       | available | $19.99    | —             | 82             | 8      | 8      | name.com    |
+| fitinto.my       | available | $19.99    | —             | 84             | 2      | 8      | name.com    |
+| keepfit.my       | available | $19.99    | —             | 86             | 9      | 8      | name.com    |
+| dogstail.my      | available | $19.99    | —             | 94             | 1      | 8      | name.com    |
+| bedframe.my      | available | $19.99    | —             | 80             | 3      | 9      | name.com    |
+| flaxseed.my      | available | $19.99    | —             | 80             | 4      | 9      | name.com    |
+| keepthechange.my | available | $19.99    | —             | 46             | 59     | 15     | name.com    |
+| Tshirts.my       | resell    | —         | —             | 70             | 20     | 8      | Porkbun LLC |
+| makers.my        | premium   | $485.56   | —             | 62             | 67     | 6      | name.com    |
+| echoes.my        | available | $3.49     | $29.99        | 56             | 24     | 6      | namesilo    |
+| questions.my     | resell    | —         | —             | 78             | 17     | 9      | NAMECHEAP   |
+| WiFi.my          | premium   | $1,087.93 | $1,554.18     | 83             | 37     | 5      | namecheap   |
+| Allie.my         | available | $38.98    | —             | 72             | 21     | 5      | namecheap   |
+| reflections.my   | resell    | —         | —             | 53             | 16     | 11     | Porkbun LLC |
+| trends.my        | premium   | $485.56   | —             | 60             | 32     | 6      | name.com    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -91,13 +91,13 @@ These rows are selected to show a more legible mix of visible asks, resale conte
 
 You are seeing the public sample. Unique Domains keeps the exact search context and adds saved workflows, deeper filters, and alerting.
 
-| GitHub extract          | Unique Domains                                   |
-| ----------------------- | ------------------------------------------------ |
-| 1,000-row public sample | 10,326 live domains                              |
-| Static CSV / JSON       | live search and daily refresh                    |
-| Basic exported fields   | deeper price, demand, risk, and workflow context |
-| No persistence          | Radar, saved search, and alerts                  |
-| No founder workflow     | Project, shortlist, and next-step workflow       |
+| GitHub extract          | Unique Domains                             |
+| ----------------------- | ------------------------------------------ |
+| 1,000-row public sample | 10,330 live domains                        |
+| Static CSV / JSON       | live search and daily refresh              |
+| Basic exported fields   | 0 high-demand names under $2,500           |
+| No persistence          | Radar, saved search, and alerts            |
+| No founder workflow     | Project, shortlist, and next-step workflow |
 
 If this sample already feels useful, Unique Domains is where the exact search becomes a workflow.
 
@@ -120,13 +120,12 @@ See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This repository follows the exact public search represented by the canonical page above.
+This selection is entirely made up of one-word .my domains. The set includes short verb-led names such as Useit.my, Hangon.my, and Makeit.my, along with broader dictionary terms like Edamame.my and Pierogi.my. For founders, the main question is whether the word is memorable, easy to say, and strong enough to carry a brand on its own. For investors, the key check is whether the ask leaves room for resale versus renewal commitment. With a median ask of 98.21, the pricing sits in an accessible range, but quality still varies widely by clarity, commercial use, and trademark risk.
 
-- This repository is a public extract, not the full live catalog.
-- Counts, prices, and statuses can change over time.
-- Scores are decision-support signals, not guarantees of resale value.
-- Trademark, SEO, and risk signals should be treated as screening inputs, not legal or specialist advice.
-- Unique Domains contains deeper filters, monitoring, and decision workflows than this public extract.
+- All domains in this selection use the .my extension
+- Examples include Acup.my, Useit.my, Toneup.my, Makeit.my
+- Median ask across the set is 98.21
+- Prioritize clarity, recall, and trademark distance
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -143,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MY One-Word Domains*. Version 2026-05-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MY One-Word Domains*. Version 2026-05-06. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
