@@ -77,6 +77,7 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 08d99e59-b143-49dd-bfe0-133b202704ca,flashflooding.my,available,19.99,,52,0,14,name.com,,
 08e70cdf-165d-445e-be99-690c0f4be231,takeanap.my,available,19.99,,73,2,10,name.com,,
 08fab15a-2c49-45d6-9300-d0550dc2d506,coffeeandcakes.my,available,19.99,,72,2,16,name.com,,
+0932e8a9-fa9f-4b82-bb3b-c685070df567,dreamup.my,premium,,,82,8,8,,,
 095523ff-d288-4094-8d21-00ee4e627bbf,primes.my,available,3.49,29.99,56,13,6,namesilo,,
 09608c61-5d1f-477f-93e5-93b04f64b10a,expectedreturn.my,available,19.99,,48,2,15,name.com,,
 097a77e9-125c-451e-9301-2fbc8c65db30,comeupto.my,available,19.99,,72,1,10,name.com,,
@@ -998,4 +999,3 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 649b1607-6dd4-4c11-91b4-8d09d636c83c,woodentruss.my,available,19.99,,56,1,12,name.com,,
 64a202b1-1e98-4dd0-b62e-21cc6ccaf189,lordofthemanor.my,available,19.99,,68,1,17,name.com,,
 64b589c7-bccc-4054-8b5f-56136ce6d13a,minimumwages.my,available,3.49,29.99,52,1,13,namesilo,,
-64cea015-2559-4a2b-a62d-a3ba45575277,ohmygosh.my,available,19.99,,82,6,8,name.com,,

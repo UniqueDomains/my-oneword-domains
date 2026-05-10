@@ -68,7 +68,6 @@ print(df.head())
 | edamame.my       | available | $3.49     | $29.99        | 80             | 9      | 7      | namesilo    |
 | toneup.my        | available | $19.99    | —             | 80             | 5      | 7      | name.com    |
 | pierogi.my       | available | $19.99    | —             | 82             | 7      | 7      | name.com    |
-| ohmygosh.my      | available | $19.99    | —             | 82             | 6      | 8      | name.com    |
 | surebet.my       | available | $19.99    | —             | 82             | 8      | 8      | name.com    |
 | fitinto.my       | available | $19.99    | —             | 84             | 2      | 8      | name.com    |
 | keepfit.my       | available | $19.99    | —             | 86             | 9      | 8      | name.com    |
@@ -84,6 +83,7 @@ print(df.head())
 | Allie.my         | available | $38.98    | —             | 72             | 21     | 5      | namecheap   |
 | reflections.my   | resell    | —         | —             | 53             | 16     | 11     | Porkbun LLC |
 | trends.my        | premium   | $485.56   | —             | 60             | 32     | 6      | name.com    |
+| rivals.my        | available | $3.49     | $29.99        | 48             | 20     | 6      | namesilo    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
