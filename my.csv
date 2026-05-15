@@ -333,7 +333,7 @@ id,domain,status,purchase_price,renewal_price,attractiveness,demand,length,regis
 2420c1e8-5a63-484a-8402-d1396fe25074,devoting.my,available,19.99,,56,2,8,name.com,,
 243b6d5e-88e5-429d-8653-82632af440ed,stalled.my,available,19.99,,48,3,7,name.com,,
 243e8d64-182d-42b1-9fe7-aa7dbe0fa071,backs.my,available,19.99,,56,5,5,name.com,,
-244f4c6b-2a55-4145-b459-f698141e4abe,trousers.my,available,19.99,,70,9,8,name.com,,
+244f4c6b-2a55-4145-b459-f698141e4abe,trousers.my,available,19.99,,70,5,8,name.com,,
 2456b9ef-1c6c-4579-a070-49d3d2adc0b7,changeout.my,available,19.99,,50,1,10,name.com,,
 24579d42-17aa-41d8-9970-2bb566fb17ed,keypresses.my,available,3.49,29.99,54,0,11,namesilo,,
 245a7af2-b2ec-43c9-a4b0-1c8620695a11,organisational.my,available,19.99,,54,1,14,name.com,,
