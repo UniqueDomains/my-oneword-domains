@@ -14,10 +14,10 @@ Daily-updated public extract of available and resale .my one-word domains from U
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
 > The full live catalog for this exact search currently contains **10,335 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 10,335 domains · **Median ask:** $98.21 · **High-demand under $2,500:** 0
+**Public extract:** 1,000 rows · **Live catalog:** 10,335 domains · **Median ask:** $89.62 · **High-demand under $2,500:** 0
 
-**Last updated:** 2026-05-26  
-**Canonical page:** `https://unique.domains/domains/tld/my`  
+**Last updated:** 2026-07-07
+**Canonical page:** `https://unique.domains/domains/tld/my`
 **Best for:** founders, investors, studios
 
 ---
@@ -43,13 +43,13 @@ This repository is the public extract for Unique Domains' .MY one-word domain ca
 
 ### Files
 
-- `my.csv` — public CSV extract (1,000 rows)
-- `my.json` — public JSON extract (1,000 rows)
-- `DATA_DICTIONARY.md` — field definitions for the exported files
-- `METHODOLOGY.md` — scope, refresh policy, and caveats
-- `CHANGELOG.md` — latest snapshot metadata
-- `CITATION.cff` — machine-readable dataset citation metadata
-- `LICENSE` — terms for the public extract
+- `my.csv`, public CSV extract (1,000 rows)
+- `my.json`, public JSON extract (1,000 rows)
+- `DATA_DICTIONARY.md`, field definitions for the exported files
+- `METHODOLOGY.md`, scope, refresh policy, and caveats
+- `CHANGELOG.md`, latest snapshot metadata
+- `CITATION.cff`, machine-readable dataset citation metadata
+- `LICENSE`, terms for the public extract
 
 ## 🧭 Quick start
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain           | status    | ask_price | renewal_price | attractiveness | demand | length | registrar   |
-| ---------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ----------- |
-| dogsit.my        | available | $19.99    | —             | 96             | 2      | 6      | name.com    |
-| edamame.my       | available | $3.49     | $29.99        | 80             | 9      | 7      | namesilo    |
-| toneup.my        | available | $19.99    | —             | 80             | 5      | 7      | name.com    |
-| pierogi.my       | available | $19.99    | —             | 82             | 7      | 7      | name.com    |
-| dreamup.my       | premium   | —         | —             | 82             | 8      | 8      | —           |
-| surebet.my       | available | $19.99    | —             | 82             | 7      | 8      | name.com    |
-| fitinto.my       | available | $19.99    | —             | 84             | 1      | 8      | name.com    |
-| keepfit.my       | available | $19.99    | —             | 86             | 9      | 8      | name.com    |
-| dogstail.my      | available | $19.99    | —             | 94             | 1      | 8      | name.com    |
-| bedframe.my      | available | $19.99    | —             | 80             | 3      | 9      | name.com    |
-| flaxseed.my      | available | $19.99    | —             | 80             | 4      | 9      | name.com    |
-| keepthechange.my | available | $19.99    | —             | 46             | 59     | 15     | name.com    |
-| Tshirts.my       | resell    | —         | —             | 70             | 20     | 8      | Porkbun LLC |
-| makers.my        | premium   | $485.56   | —             | 62             | 67     | 6      | name.com    |
-| echoes.my        | available | $3.49     | $29.99        | 56             | 24     | 6      | namesilo    |
-| questions.my     | resell    | —         | —             | 78             | 17     | 9      | NAMECHEAP   |
-| WiFi.my          | premium   | $1,087.93 | $1,554.18     | 83             | 37     | 5      | namecheap   |
-| Allie.my         | available | $38.98    | —             | 72             | 21     | 5      | namecheap   |
-| reflections.my   | resell    | —         | —             | 53             | 16     | 11     | Porkbun LLC |
-| trends.my        | premium   | $485.56   | —             | 60             | 32     | 6      | name.com    |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| great.my | premium   | $973.87   | —             | high           | low    | 5      | name.com     |
+| bead.my  | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
+| cow.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| cot.my   | premium   | $485.56   | —             | high           | low    | 3      | name.com     |
+| cane.my  | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo     |
+| fog.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| dye.my   | premium   | $487.34   | —             | medium         | low    | 3      | name.com     |
+| giza.my  | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
+| mon.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| Eid.my   | premium   | $98.19    | —             | high           | low    | 3      | name.com     |
+| nyse.my  | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo     |
+| rep.my   | resell    | —         | —             | medium         | low    | 3      | Dynadot, LLC |
+| hug.my   | premium   | $492.26   | —             | high           | low    | 3      | name.com     |
+| veer.my  | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
+| rid.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| lag.my   | premium   | $487.28   | —             | medium         | low    | 3      | name.com     |
+| aftuh.my | available | $3.49     | $29.99        | medium         | low    | 5      | namesilo     |
+| card.my  | resell    | —         | —             | medium         | medium | 4      | Porkbun LLC  |
+| mao.my   | premium   | $492.32   | —             | medium         | low    | 3      | name.com     |
+| balmy.my | available | $19.99    | —             | high           | low    | 5      | name.com     |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -105,27 +105,27 @@ If this sample already feels useful, Unique Domains is where the exact search be
 
 ## 🧱 Field summary
 
-- `domain` — Fully qualified domain name.
-- `status` — Current acquisition state for the domain in the public extract.
-- `purchase_price` — Visible purchase price when available.
-- `renewal_price` — Visible renewal price when available.
-- `attractiveness` — Composite naming score used as a decision-support signal.
-- `demand` — Relative buyer-pressure score when available.
-- `length` — Character count without the TLD.
-- `registrar` — Registrar name when known.
-- `created_at` — Creation timestamp when known.
-- `expires_at` — Expiry timestamp when known.
+- `domain`, Fully qualified domain name.
+- `status`, Current acquisition state for the domain in the public extract.
+- `purchase_price`, Visible purchase price when available.
+- `renewal_price`, Visible renewal price when available.
+- `attractiveness`, Public composite naming band used as a decision-support signal.
+- `demand`, Public buyer-pressure band when available.
+- `length`, Character count without the TLD.
+- `registrar`, Registrar name when known.
+- `created_at`, Creation timestamp when known.
+- `expires_at`, Expiry timestamp when known.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
 ## ⚠️ Methodology and caveats
 
-This selection is entirely made up of one-word .my domains. The set includes short verb-led names such as Useit.my, Hangon.my, and Makeit.my, along with broader dictionary terms like Edamame.my and Pierogi.my. For founders, the main question is whether the word is memorable, easy to say, and strong enough to carry a brand on its own. For investors, the key check is whether the ask leaves room for resale versus renewal commitment. With a median ask of 98.21, the pricing sits in an accessible range, but quality still varies widely by clarity, commercial use, and trademark risk.
+This list of one-word .MY domain names spans 10,335 entries drawn from Malaysia's national ccTLD, with a median ask near $90. Names range from short everyday words like girls.my and dogsick.my to two-word compounds written as a single string, such as weddingcake.my, coffeemilk.my, and dreamup.my. For founders, these read as clean, ownable-now single words suited to a fast shortlist. For investors, the .MY namespace offers broad one-word coverage at accessible price points, though renewal costs and local registration requirements should be checked before buying.
 
-- All domains in this selection use the .my extension
-- Examples include Acup.my, Useit.my, Toneup.my, Makeit.my
-- Median ask across the set is 98.21
-- Prioritize clarity, recall, and trademark distance
+- 10,335 one-word .MY names, Malaysia's ccTLD, updated daily
+- Median ask near $90 across this selection
+- Mix of short words and two-word compounds as single strings
+- Check renewal cost and registration rules before buying
 
 See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 
@@ -142,7 +142,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MY One-Word Domains*. Version 2026-05-26. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MY One-Word Domains*. Version 2026-07-07. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
