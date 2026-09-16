@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .my one-word domains from U
 
 **Public extract:** 1,000 rows · **Live catalog:** 22,169 domains · **Median ask:** $41.52 · **High-demand under $2,500:** 22
 
-**Last updated:** 2026-09-15
+**Last updated:** 2026-09-16
 **Canonical page:** `https://unique.domains/domains/tld/my`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain  | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
-| ------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
-| bead.my | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
-| cow.my  | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
-| clx.my  | premium   | $94.41    | $134.87       | low            | low    | 3      | name.com     |
-| cane.my | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo     |
-| fog.my  | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
-| cot.my  | premium   | $485.56   | —             | high           | low    | 3      | name.com     |
-| clxv.my | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
-| mon.my  | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
-| dye.my  | premium   | $487.34   | —             | medium         | low    | 3      | name.com     |
-| cxlv.my | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
-| rep.my  | resell    | —         | —             | medium         | low    | 3      | Dynadot, LLC |
-| Eid.my  | premium   | $98.19    | —             | high           | low    | 3      | name.com     |
-| giza.my | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
-| rid.my  | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
-| hug.my  | premium   | $492.26   | —             | high           | low    | 3      | name.com     |
-| lvii.my | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
-| card.my | resell    | —         | —             | medium         | medium | 4      | Porkbun LLC  |
-| lag.my  | premium   | $487.28   | —             | medium         | low    | 3      | name.com     |
-| nyse.my | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo     |
-| leak.my | resell    | —         | —             | medium         | low    | 4      | Porkbun LLC  |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| great.my | premium   | $973.87   | —             | high           | low    | 5      | name.com     |
+| bang.my  | premium   | $484.89   | —             | high           | low    | 4      | name.com     |
+| wrong.my | premium   | $3.49     | $29.99        | high           | low    | 5      | namesilo     |
+| own.my   | premium   | $969.65   | —             | high           | high   | 3      | name.com     |
+| bead.my  | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
+| cow.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| clx.my   | premium   | $94.41    | $134.87       | low            | low    | 3      | name.com     |
+| cane.my  | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo     |
+| fog.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| cot.my   | premium   | $485.56   | —             | high           | low    | 3      | name.com     |
+| clxv.my  | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
+| mon.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| dye.my   | premium   | $487.34   | —             | medium         | low    | 3      | name.com     |
+| cxlv.my  | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
+| rep.my   | resell    | —         | —             | medium         | low    | 3      | Dynadot, LLC |
+| Eid.my   | premium   | $98.19    | —             | high           | low    | 3      | name.com     |
+| giza.my  | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
+| rid.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| hug.my   | premium   | $492.26   | —             | high           | low    | 3      | name.com     |
+| lvii.my  | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -115,6 +115,7 @@ If this sample already feels useful, Unique Domains is where the exact search be
 - `registrar`, Registrar name when known.
 - `created_at`, Creation timestamp when known.
 - `expires_at`, Expiry timestamp when known.
+- `status_verified_at`, When status was last established against the registry. Null means never checked.
 
 See [DATA_DICTIONARY.md](./DATA_DICTIONARY.md) for full definitions and types.
 
@@ -132,6 +133,7 @@ See [METHODOLOGY.md](./METHODOLOGY.md) for the full methodology reference.
 ## 🔄 Update policy
 
 - This repository is refreshed regularly from the same export pipeline used for public dataset repos.
+- The snapshot date above is when this file was written, not when each row was checked. Read `status_verified_at` for that: a name whose status was last established months ago is exported with its real date rather than the snapshot's.
 - The README count targets the live catalog count from the public landing response when available.
 - The CSV and JSON files contain the public extract only and may not match the full live catalog size.
 - Stable historical references should be published via GitHub Releases outside this repository snapshot.
@@ -142,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MY One-Word Domains*. Version 2026-09-15. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MY One-Word Domains*. Version 2026-09-16. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
