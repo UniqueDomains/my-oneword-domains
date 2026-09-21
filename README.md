@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .my one-word domains from U
 
 **Public extract:** 1,000 rows · **Live catalog:** 26,032 domains · **Median ask:** $38.60 · **High-demand under $2,500:** 21
 
-**Last updated:** 2026-09-20
+**Last updated:** 2026-09-21
 **Canonical page:** `https://unique.domains/domains/tld/my`
 **Best for:** founders, investors, studios
 
@@ -64,6 +64,10 @@ print(df.head())
 
 | domain       | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
 | ------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| great.my     | premium   | $973.87   | —             | high           | low    | 5      | name.com     |
+| bang.my      | premium   | $484.89   | —             | high           | low    | 4      | name.com     |
+| wrong.my     | premium   | $3.49     | $29.99        | high           | low    | 5      | namesilo     |
+| own.my       | premium   | $969.65   | —             | high           | high   | 3      | name.com     |
 | bead.my      | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
 | operation.my | resell    | $3.49     | $29.99        | medium         | low    | 9      | namesilo     |
 | clx.my       | premium   | $94.41    | $134.87       | low            | low    | 3      | name.com     |
@@ -80,10 +84,6 @@ print(df.head())
 | rep.my       | resell    | —         | —             | medium         | low    | 3      | Dynadot, LLC |
 | hug.my       | premium   | $492.26   | —             | high           | low    | 3      | name.com     |
 | lvii.my      | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
-| rid.my       | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
-| lag.my       | premium   | $487.28   | —             | medium         | low    | 3      | name.com     |
-| nyse.my      | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo     |
-| card.my      | resell    | —         | —             | medium         | medium | 4      | Porkbun LLC  |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MY One-Word Domains*. Version 2026-09-20. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MY One-Word Domains*. Version 2026-09-21. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
