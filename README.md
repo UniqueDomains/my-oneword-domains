@@ -16,7 +16,7 @@ Daily-updated public extract of available and resale .my one-word domains from U
 
 **Public extract:** 1,000 rows · **Live catalog:** 28,445 domains · **Median ask:** $38.39 · **High-demand under $2,500:** 21
 
-**Last updated:** 2026-09-23
+**Last updated:** 2026-09-24
 **Canonical page:** `https://unique.domains/domains/tld/my`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain       | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                |
-| ------------ | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------ |
-| bang.my      | premium   | $484.89   | —             | high           | low    | 4      | name.com                 |
-| wrong.my     | premium   | $3.49     | $29.99        | high           | low    | 5      | namesilo                 |
-| own.my       | premium   | $969.65   | —             | high           | high   | 3      | name.com                 |
-| most.my      | premium   | $242.62   | —             | high           | low    | 4      | name.com                 |
-| bead.my      | available | $3.49     | $29.99        | high           | low    | 4      | namesilo                 |
-| operation.my | resell    | $3.49     | $29.99        | medium         | low    | 9      | Exabytes Network Sdn Bhd |
-| clx.my       | premium   | $94.41    | $134.87       | low            | low    | 3      | name.com                 |
-| cane.my      | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo                 |
-| supporter.my | resell    | $3.49     | $29.99        | low            | low    | 9      | namesilo                 |
-| cot.my       | premium   | $485.56   | —             | high           | low    | 3      | name.com                 |
-| clxv.my      | available | $2.98     | $38.98        | low            | low    | 4      | namecheap                |
-| cow.my       | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC             |
-| dye.my       | premium   | $487.34   | —             | medium         | low    | 3      | name.com                 |
-| cxlv.my      | available | $2.98     | $38.98        | low            | low    | 4      | namecheap                |
-| fog.my       | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC             |
-| eid.my       | premium   | $98.19    | —             | high           | low    | 3      | name.com                 |
-| giza.my      | available | $3.49     | $29.99        | high           | low    | 4      | namesilo                 |
-| mon.my       | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC             |
-| hug.my       | premium   | $492.26   | —             | high           | low    | 3      | name.com                 |
-| lvii.my      | available | $2.98     | $38.98        | low            | low    | 4      | namecheap                |
+| domain   | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
+| -------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
+| sorry.my | premium   | $98.55    | $140.80       | high           | low    | 5      | namecheap    |
+| bang.my  | premium   | $484.89   | —             | high           | low    | 4      | name.com     |
+| wrong.my | premium   | $3.49     | $29.99        | high           | low    | 5      | namesilo     |
+| own.my   | premium   | $969.65   | —             | high           | high   | 3      | name.com     |
+| arty.my  | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
+| cow.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| clx.my   | premium   | $94.41    | $134.87       | low            | low    | 3      | name.com     |
+| bead.my  | available | $3.49     | $29.99        | high           | low    | 4      | namesilo     |
+| don.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| cot.my   | premium   | $485.56   | —             | high           | low    | 3      | name.com     |
+| boer.my  | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
+| fog.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| dvd.my   | premium   | $487.46   | —             | high           | low    | 3      | name.com     |
+| cane.my  | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo     |
+| mon.my   | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC |
+| dye.my   | premium   | $487.34   | —             | medium         | low    | 3      | name.com     |
+| clxv.my  | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
+| rep.my   | resell    | —         | —             | medium         | low    | 3      | Dynadot, LLC |
+| eid.my   | premium   | $98.19    | —             | high           | low    | 3      | name.com     |
+| cxlv.my  | available | $2.98     | $38.98        | low            | low    | 4      | namecheap    |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MY One-Word Domains*. Version 2026-09-23. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MY One-Word Domains*. Version 2026-09-24. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
