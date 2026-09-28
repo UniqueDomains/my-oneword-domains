@@ -1,10 +1,10 @@
-# Available .MY One-Word Domains (20,128)
+# Available .MY One-Word Domains (20,538)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-20%2C128%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-20%2C538%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,9 +12,9 @@
 Daily-updated public extract of available and resale .my one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **20,128 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **20,538 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 20,128 domains · **Median ask:** $65.76 · **High-demand under $2,500:** 35
+**Public extract:** 1,000 rows · **Live catalog:** 20,538 domains · **Median ask:** $65.85 · **High-demand under $2,500:** 35
 
 **Last updated:** 2026-09-28
 **Canonical page:** `https://unique.domains/domains/tld/my`
@@ -74,16 +74,16 @@ print(df.head())
 | lit.my        | resell    | —         | —             | high           | medium | 3      | Dynadot, LLC                |
 | azo.my        | premium   | $470.65   | $672.35       | high           | low    | 3      | name.com                    |
 | asur.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                   |
-| ult.my        | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC                |
+| spd.my        | resell    | —         | —             | high           | low    | 3      | —                           |
 | baa.my        | premium   | $470.59   | $672.28       | high           | low    | 3      | name.com                    |
-| aton.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                   |
-| jibe.my       | resell    | —         | —             | medium         | low    | 4      | Exabytes Network Sdn Bhd    |
-| cao.my        | premium   | $98.28    | $140.40       | high           | low    | 3      | namecheap                   |
 | boer.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                   |
-| pent.my       | resell    | —         | —             | medium         | low    | 4      | Shinjiru Technology Sdn Bhd |
-| ccp.my        | premium   | $140.12   | $140.12       | medium         | low    | 3      | namesilo                    |
+| ult.my        | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC                |
+| cao.my        | premium   | $98.28    | $140.40       | high           | low    | 3      | namecheap                   |
 | byrd.my       | available | $3.49     | $29.99        | high           | low    | 4      | namesilo                    |
-| rook.my       | resell    | —         | —             | high           | low    | 4      | Shinjiru Technology Sdn Bhd |
+| jibe.my       | resell    | —         | —             | medium         | low    | 4      | Exabytes Network Sdn Bhd    |
+| ccp.my        | premium   | $140.12   | $140.12       | medium         | low    | 3      | namesilo                    |
+| eery.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                   |
+| pent.my       | resell    | —         | —             | medium         | low    | 4      | Shinjiru Technology Sdn Bhd |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,7 +93,7 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 20,128 live domains                        |
+| 1,000-row public sample | 20,538 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
 | Basic exported fields   | 35 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
