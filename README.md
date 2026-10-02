@@ -1,10 +1,10 @@
-# Available .MY One-Word Domains (25,835)
+# Available .MY One-Word Domains (27,152)
 
 <p align="left">
   <img alt="status" src="https://img.shields.io/badge/status-active-2ea44f">
   <img alt="updated" src="https://img.shields.io/badge/updated-daily-0969da">
   <img alt="public extract" src="https://img.shields.io/badge/public%20extract-1%2C000%20rows-8250df">
-  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-25%2C835%20domains-6f42c1">
+  <img alt="live catalog" src="https://img.shields.io/badge/live%20catalog-27%2C152%20domains-6f42c1">
   <img alt="formats" src="https://img.shields.io/badge/formats-CSV%20%7C%20JSON-f59e0b">
   <img alt="license" src="https://img.shields.io/badge/license-see%20LICENSE-6b7280">
 </p>
@@ -12,11 +12,11 @@
 Daily-updated public extract of available and resale .my one-word domains from Unique Domains.
 
 > **Important:** this repository is a **public 1,000-row extract**, not the full live catalog.
-> The full live catalog for this exact search currently contains **25,835 domains** on the canonical page below.
+> The full live catalog for this exact search currently contains **27,152 domains** on the canonical page below.
 
-**Public extract:** 1,000 rows · **Live catalog:** 25,835 domains · **Median ask:** $62.01 · **High-demand under $2,500:** 49
+**Public extract:** 1,000 rows · **Live catalog:** 27,152 domains · **Median ask:** $61.05 · **High-demand under $2,500:** 51
 
-**Last updated:** 2026-10-01
+**Last updated:** 2026-10-02
 **Canonical page:** `https://unique.domains/domains/tld/my`
 **Best for:** founders, investors, studios
 
@@ -62,28 +62,28 @@ print(df.head())
 
 ## 🗂️ Sample rows
 
-| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar    |
-| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------ |
-| enter.my      | premium   | $78.07    | $111.53       | high           | low    | 5      | spaceship    |
-| policy.my     | premium   | $54.67    | $78.10        | high           | low    | 6      | spaceship    |
-| slide.my      | premium   | $76.73    | $109.47       | high           | low    | 5      | porkbun      |
-| eclipse.my    | premium   | $700.62   | $700.62       | high           | medium | 7      | namesilo     |
-| eleven.my     | premium   | $1,455.98 | $1,455.98     | high           | low    | 6      | namesilo     |
-| vast.my       | premium   | $350.31   | $350.31       | high           | low    | 4      | namesilo     |
-| basis.my      | premium   | $140.12   | $140.12       | high           | low    | 5      | namesilo     |
-| proud.my      | premium   | $98.28    | $140.40       | high           | low    | 5      | namecheap    |
-| shelter.my    | premium   | $54.67    | $78.10        | high           | low    | 7      | spaceship    |
-| lit.my        | resell    | —         | —             | high           | medium | 3      | Dynadot, LLC |
-| night.my      | premium   | $390.66   | $558.09       | high           | low    | 5      | spaceship    |
-| keep.my       | premium   | $245.17   | $350.23       | high           | low    | 4      | namecheap    |
-| surprising.my | resell    | $3.49     | $29.99        | high           | low    | 10     | namesilo     |
-| which.my      | premium   | $700.62   | $700.62       | high           | medium | 5      | namesilo     |
-| personal.my   | premium   | $700.62   | $700.62       | high           | low    | 8      | namesilo     |
-| wisdom.my     | premium   | $1,455.98 | $1,455.98     | high           | medium | 6      | namesilo     |
-| wheel.my      | premium   | $700.62   | $700.62       | high           | low    | 5      | namesilo     |
-| relations.my  | available | $3.49     | $29.99        | high           | low    | 9      | namesilo     |
-| appreciate.my | premium   | $350.31   | $350.31       | high           | low    | 10     | namesilo     |
-| scene.my      | premium   | $97.97    | $139.96       | high           | low    | 5      | namecheap    |
+| domain        | status    | ask_price | renewal_price | attractiveness | demand | length | registrar                |
+| ------------- | --------- | --------- | ------------- | -------------- | ------ | ------ | ------------------------ |
+| akha.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                |
+| esteem.my     | resell    | $3.49     | $29.99        | high           | low    | 6      | namesilo                 |
+| abu.my        | premium   | $382.39   | $546.14       | high           | low    | 3      | porkbun                  |
+| alep.my       | available | $3.49     | $29.99        | medium         | low    | 4      | namesilo                 |
+| surprising.my | resell    | $3.49     | $29.99        | high           | low    | 10     | namesilo                 |
+| adz.my        | premium   | $700.62   | $700.62       | medium         | low    | 3      | namesilo                 |
+| arse.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                |
+| gun.my        | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC             |
+| ani.my        | premium   | $700.62   | $700.62       | high           | low    | 3      | namesilo                 |
+| asur.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                |
+| ipa.my        | resell    | —         | —             | high           | low    | 3      | —                        |
+| baa.my        | premium   | $470.59   | $672.28       | high           | low    | 3      | name.com                 |
+| boer.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                |
+| lit.my        | resell    | —         | —             | high           | medium | 3      | Dynadot, LLC             |
+| bfa.my        | premium   | $110      | $110          | high           | low    | 3      | dynadot                  |
+| byrd.my       | available | $3.49     | $29.99        | high           | low    | 4      | namesilo                 |
+| ult.my        | resell    | —         | —             | high           | low    | 3      | Dynadot, LLC             |
+| cao.my        | premium   | $98.28    | $140.40       | high           | low    | 3      | namecheap                |
+| eery.my       | available | $2.98     | $38.98        | medium         | low    | 4      | namecheap                |
+| jibe.my       | resell    | —         | —             | medium         | low    | 4      | Exabytes Network Sdn Bhd |
 
 These rows are selected to show a more legible mix of visible asks, resale context, and status coverage from the exact live search.
 
@@ -93,9 +93,9 @@ You are seeing the public sample. Unique Domains keeps the exact search context 
 
 | GitHub extract          | Unique Domains                             |
 | ----------------------- | ------------------------------------------ |
-| 1,000-row public sample | 25,835 live domains                        |
+| 1,000-row public sample | 27,152 live domains                        |
 | Static CSV / JSON       | live search and daily refresh              |
-| Basic exported fields   | 49 high-demand names under $2,500          |
+| Basic exported fields   | 51 high-demand names under $2,500          |
 | No persistence          | Radar, saved search, and alerts            |
 | No founder workflow     | Project, shortlist, and next-step workflow |
 
@@ -144,7 +144,7 @@ See [CHANGELOG.md](./CHANGELOG.md) for the latest snapshot metadata.
 
 Suggested citation:
 
-> Unique Domains. *Available .MY One-Word Domains*. Version 2026-10-01. Public GitHub extract for the exact Unique Domains search represented by this repository.
+> Unique Domains. *Available .MY One-Word Domains*. Version 2026-10-02. Public GitHub extract for the exact Unique Domains search represented by this repository.
 
 GitHub citation metadata is available in [CITATION.cff](./CITATION.cff).
 
